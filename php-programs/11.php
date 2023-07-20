@@ -8,9 +8,7 @@
 </head>
 
 <body>
-
     <!-- inheritance -->
-
     <?php
         class Chef{
             function makeChicken(){
@@ -32,14 +30,11 @@
                 echo "the chef makes chicken parm";
             }
         }
-
         $chef = new Chef();
         $chef-> makeSpecialDish();
 
         $italianChef = new italianChef();
         $italianChef-> makeSpecialDish();   //function overriding
-
     ?>
-    
 </body>
 </html>
